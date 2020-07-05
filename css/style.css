@@ -9,3 +9,25 @@
  display: table;
  clear: both;
  }
+.container {
+  width: 80%;
+  margin: auto;
+}
+.header-top {
+  height: 200px;
+  background-color: transparent;
+}
+.header-top-first-row{
+  height: 100px;
+  background-color: #F4F9FD;
+  border-bottom: 1px solid #000;
+}
+.right-column {
+  float: left;
+  width: 30%;
+  line-height: 100px;
+}
+.right-column li {
+  list-style: none;
+  display: inline-block;
+}
