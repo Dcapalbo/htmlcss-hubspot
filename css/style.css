@@ -22,11 +22,10 @@ body {
 .header-top-first-row{
   height: 100px;
   background-color: #F4F9FD;
-  border-bottom: 1px solid #000;
 }
 .right-column {
   float: left;
-  width: 30%;
+  width: 70%;
   line-height: 100px;
 }
 .right-column li {
@@ -70,4 +69,23 @@ body {
   color: #fff;
   border-radius: 5px;
   border: 1px solid #FE775A;
+}
+.header-top-second-row {
+  height: 100px;
+  background-color: #fff;
+}
+.column-lower-left {
+  float: left;
+  width: 30%;
+  padding: 30px 0px 0px 0px;
+}
+.column-lower-right {
+  float: left;
+  width: 70%;
+  transform: translate(35%, 200%);
+}
+.column-lower-right li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 15px;
 }
