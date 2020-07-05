@@ -33,7 +33,7 @@ body {
   padding-left: 15px;
 }
 #border-left {
-  border-left: 1px solid lightgrey;
+  border-left: 1px solid #000;
   margin-top: 15px;
   height: 20px;
   transform: translate(100%, 20%);
@@ -99,7 +99,7 @@ body {
   font-size: 15px;
 }
 header {
-  height: 2500px;
+  height: 1000px;
   background-image: url(../img/jumbotron.png);
   background-repeat:no-repeat;
   background-size: 100%;
@@ -107,4 +107,12 @@ header {
 .banner-column {
   line-height: 30px;
   margin-top: 40px;
+}
+.first-background {
+  height: 2000px;
+  background-color: #F4F9FD;
+}
+.central-column {
+  text-align: center;
+  line-height: 35px;
 }
