@@ -109,10 +109,121 @@ header {
   margin-top: 40px;
 }
 .first-background {
-  height: 2000px;
+  height: 1650px;
   background-color: #F4F9FD;
 }
 .central-column {
+  width: 100%;
   text-align: center;
   line-height: 35px;
+}
+section h2 {
+  font-size: 30px;
+}
+.main-container {
+  width: 80%;
+  margin: auto;
+}
+.orizzontal-column {
+  margin-top: 50px;
+  height: 350px;
+  background-color: #fff;
+  box-shadow: 2px 1px 5px 0px;
+  border-radius: 5px;
+}
+.main-left-column {
+  float: left;
+  height: 80%;
+  width: 25%;
+  position: relative;
+  margin: 5% 0 0 5%;
+}
+#CRM {
+transform: translate(10%, -30%);
+width: 50%;
+}
+.btn-learnmore {
+  display: block;
+  padding: 20px 30px 20px 30px;
+  background-color: #FE775A;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #FE775A;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.main-right-column {
+  float: left;
+  height: 80%;
+  width: 65%;
+  position: relative;
+  margin: 5% 0 0 0;
+  line-height: 30px;
+  margin-left: 5px;
+}
+.main-right-column li {
+  display: inline-block;
+  margin-left: 20px;
+
+}
+.main-right-column h2 {
+  margin-right: 40px;
+}
+.fa-check-circle {
+  color: #FE775A;
+}
+.main-right-column h2, p {
+  margin-left: 20px;
+}
+.info-service {
+  margin-top: 50px;
+  height: 600px;
+}
+.info-column-left {
+  width: 31%;
+  float:left;
+  background-color: #fff;
+  height: 100%;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  box-shadow: 2px 1px 5px 0px;
+}
+.img-marketing {
+  width: 35%;
+  margin-top: 40px;
+}
+.img-sales {
+  width: 43%;
+  margin-top: 40px;
+}
+.img-service {
+  width: 31%;
+  margin-top: 40px;
+}
+.ul-float li {
+  float: left;
+  list-style: none;
+}
+.info-column-central {
+  width: 31%;
+  float:left;
+  background-color: #fff;
+  height: 100%;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  box-shadow: 2px 1px 5px 0px;
+}
+.info-column-right {
+  width: 31%;
+  float:left;
+  background-color: #fff;
+  height: 100%;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  box-shadow: 2px 1px 5px 0px;
 }
