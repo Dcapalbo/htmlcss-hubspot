@@ -109,7 +109,7 @@ header {
   margin-top: 40px;
 }
 .first-background {
-  height: 1650px;
+  height: 1700px;
   background-color: #F4F9FD;
 }
 .central-column {
@@ -177,7 +177,6 @@ width: 50%;
 }
 .info-service {
   margin-top: 50px;
-  height: 600px;
 }
 .info-column-left {
   width: 31%;
@@ -226,4 +225,15 @@ width: 50%;
   padding-right: 30px;
   padding-left: 30px;
   box-shadow: 2px 1px 5px 0px;
+}
+.btnlearnmoreinfo{
+  display: block;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+  background-color: #FE775A;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #FE775A;
+  font-size: 15px;
+  margin: 40px 40px 60px 70px;
 }
