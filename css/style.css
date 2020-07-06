@@ -6,15 +6,22 @@
 body {
   font-family: sans-serif;
 }
+header {
+  height: 1000px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
 .clearfix::after {
  content: "";
  display: table;
  clear: both;
  }
-.container {
-  width: 80%;
-  margin: auto;
-}
+ .container {
+   width: 70%;
+   margin: auto;
+ }
+/* Header */
 .header-top {
   background-color: transparent;
 }
@@ -22,15 +29,15 @@ body {
   height: 100px;
   background-color: #F4F9FD;
 }
-.right-column{
+.left-column{
   float: left;
   width: 70%;
   line-height: 100px;
 }
-.right-column li {
+.left-column li {
   list-style: none;
   display: inline-block;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 #border-left {
   border-left: 1px solid #000;
@@ -38,13 +45,12 @@ body {
   height: 20px;
   transform: translate(100%, 20%);
 }
-.left-column {
+.right-column {
   float: right;
   width: 30%;
   line-height: 100px;
-  padding-left: 40px;
 }
-.left-column li {
+.right-column li {
   list-style: none;
   display: inline-block;
   padding-left: 15px;
@@ -52,7 +58,6 @@ body {
 .fa-search {
   color: #08e8de;
 }
-
 .btn-login {
   padding: 10px 10px;
   margin-left: 15px;
@@ -76,13 +81,15 @@ body {
 .column-lower-left {
   float: left;
   width: 30%;
-  padding: 30px 0px 0px 0px;
+  padding-top: 2%;
+  padding-left: 2%;
 }
 .column-lower-right {
   float: left;
   width: 70%;
   transform: translate(10%, 200%);
   text-align: center;
+  padding-left: 4%;
 }
 .column-lower-right li {
   list-style: none;
@@ -90,7 +97,7 @@ body {
   padding-left: 15px;
 }
 .btn-banner {
-  padding: 20px 30px 20px 30px;
+  padding: 20px 30px;
   background-color: #FE775A;
   color: #fff;
   border-radius: 5px;
@@ -98,16 +105,12 @@ body {
   margin: 30px 0px 30px 0px;
   font-size: 15px;
 }
-header {
-  height: 1000px;
-  background-image: url(../img/jumbotron.png);
-  background-repeat:no-repeat;
-  background-size: 100%;
-}
 .banner-column {
+  width: 50%;
+  float: left;
   line-height: 30px;
-  margin-top: 40px;
 }
+/* Main prima sezione */
 .first-background {
   height: 1700px;
   background-color: #F4F9FD;
@@ -119,10 +122,6 @@ header {
 }
 section h2 {
   font-size: 30px;
-}
-.main-container {
-  width: 80%;
-  margin: auto;
 }
 .orizzontal-column {
   margin-top: 50px;
@@ -172,7 +171,7 @@ width: 50%;
 .fa-check-circle {
   color: #FE775A;
 }
-.main-right-column h2, p {
+.main-right-column h2 {
   margin-left: 20px;
 }
 .info-service {
@@ -215,6 +214,9 @@ width: 50%;
   margin-left: 40px;
   margin-right: 40px;
   box-shadow: 2px 1px 5px 0px;
+}
+.logo {
+  padding-left: 100px;
 }
 .info-column-right {
   width: 31%;
