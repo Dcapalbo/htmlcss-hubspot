@@ -82,6 +82,9 @@ header {
   height: 100px;
   background-color: #fff;
 }
+.logo {
+  margin-left: 100px;
+}
 .column-lower-left {
   float: left;
   width: 30%;
@@ -175,6 +178,7 @@ width: 50%;
 }
 .fa-check-circle {
   color: #FE775A;
+  margin-right: 15px;
 }
 .main-right-column h2 {
   margin-left: 20px;
@@ -220,9 +224,6 @@ width: 50%;
   margin-right: 45px;
   box-shadow: 2px 1px 5px 0px;
 }
-.logo {
-  padding-left: 100px;
-}
 .info-column-right {
   width: 31%;
   float:left;
@@ -243,4 +244,15 @@ width: 50%;
   border: 1px solid #FE775A;
   font-size: 15px;
   margin: 40px 40px 60px 70px;
+}
+/* second-section */
+.main-linear-gradient {
+  height: 800px;
+  background-color: #75C4C9;
+}
+.community-support {
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
