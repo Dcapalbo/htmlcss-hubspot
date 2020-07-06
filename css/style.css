@@ -11,6 +11,7 @@ header {
   background-image: url(../img/jumbotron.png);
   background-repeat:no-repeat;
   background-size: 100%;
+  background-position: 100% 100%;
 }
 .clearfix::after {
  content: "";
@@ -25,11 +26,11 @@ header {
 .header-top {
   background-color: transparent;
 }
-.header-top-first-row{
+.header-top-first-row {
   height: 100px;
   background-color: #F4F9FD;
 }
-.left-column{
+.left-column {
   float: left;
   width: 70%;
   line-height: 100px;
@@ -44,6 +45,9 @@ header {
   margin-top: 15px;
   height: 20px;
   transform: translate(100%, 20%);
+}
+.fa-globe-europe {
+  margin-right: 3px;
 }
 .right-column {
   float: right;
@@ -106,7 +110,8 @@ header {
   font-size: 15px;
 }
 .banner-column {
-  width: 50%;
+  margin-top: 3%;
+  width: 75%;
   float: left;
   line-height: 30px;
 }
@@ -211,8 +216,8 @@ width: 50%;
   text-align: center;
   padding-right: 30px;
   padding-left: 30px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 45px;
+  margin-right: 45px;
   box-shadow: 2px 1px 5px 0px;
 }
 .logo {
