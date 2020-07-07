@@ -159,6 +159,20 @@ width: 50%;
   width: 65%;
   margin: 5% 0 0 0;
   line-height: 30px;
+  position: relative;
+}
+.main-right-column-A1 {
+  width: 35%;
+  float: left;
+}
+.main-right-column-A2 {
+  width: 50%;
+  float: left;
+  margin-right: 120px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000;
+
 }
 .main-right-column h4 {
   text-transform: uppercase;
@@ -166,17 +180,17 @@ width: 50%;
 }
 .main-right-column li {
   display: inline-block;
-  margin-left: 5px;
 }
-#space {
-  width: 10%;
-  display: inline;
+#voci {
+  padding-right: 5px;
+}
+#check {
+  margin-right: 5px;
 }
 .fa-check-circle {
   color: #FE775A;
   margin-right: 10px;
 }
-
 .info-service p {
   margin-top: 30px;
   margin-bottom: 30px;
