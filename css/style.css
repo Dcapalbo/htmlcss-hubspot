@@ -222,6 +222,9 @@ width: 50%;
   float: left;
   list-style: none;
 }
+.ul-float .margin-icon {
+  margin-right: 100px;
+}
 .info-column-left {
   width: 31%;
   float:left;
@@ -263,12 +266,12 @@ width: 50%;
   border-radius: 5px;
   border: 1px solid #FE775A;
   font-size: 15px;
-  margin: 40px 40px 60px 70px;
+  margin: 40px 40px 60px 85px;
 }
 /* second-section */
 .main-linear-gradient {
   height: 800px;
-  background-color: #75C4C9;
+  background: linear-gradient(#00A7BB, #00BBA7);
 }
 .community-support {
   text-align: center;
@@ -327,15 +330,16 @@ width: 50%;
 }
 .fourth-information-column {
   float: left;
-  width: 25%;
+  width: 24%;
   text-align: center;
   padding-top: 27px;
   color: #fff;
   line-height: 57px;
 }
+
 .fifth-information-column {
   float: left;
-  width: 25%;
+  width: 25.2%;
   text-align: center;
   padding-top: 27px;
   color: #fff;
@@ -353,7 +357,7 @@ width: 50%;
 }
 .seventh-information-column {
   float: left;
-  width: 25%;
+  width: 24.9%;
   text-align: center;
   padding-top: 27px;
   color: #fff;
@@ -362,7 +366,7 @@ width: 50%;
 }
 .eight-information-column {
   float: right;
-  width: 25%;
+  width: 24.8%;
   text-align: center;
   padding-top: 27px;
   color: #fff;
